@@ -1,0 +1,46 @@
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+
+html {
+    font-family: 'Karla', sans-serif;
+}
+
+.nuxt-content h1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 36pt;
+}
+.nuxt-content h2 a{
+  color: #ef8b92;
+}
+
+.nuxt-content strong {
+  color: #ef8b92;
+}
+
+.nuxt-content p{
+  font-size: 14pt;
+  line-height: 1.5;
+}
+
+.nuxt-content blockquote {
+  color: #666;
+  border-left: 4px solid #ddd;
+  padding-left: 20px;
+  margin-left: 0;
+}
+.nuxt-content a {
+
+  color: black;
+  font-weight: 700;
+}
+.nuxt-content a:hover {
+  color: #ef8b92;
+}
